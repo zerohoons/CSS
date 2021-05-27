@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>padding - 안쪽여백</title>
+<style type="text/css">
+div.ex1{
+	width: 300px;
+	background-color: lightyellow;
+}
+/* 300px + 25px +25px = 350px */
+div.ex2{
+	width: 300px;
+	padding:25px;
+	background-color: lightblue;
+}
+/* 전체 크기를 유지하면서 안쪽 여백 주기 : box-sizing: border-box; */
+div.ex3{
+	width: 300px;
+	padding: 25px;
+	background-color: lightgreen;
+	box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+	<!-- 처리방식은 margin과 같다. -->
+	
+	<h2>Padding and element width</h2>
+	<div class="ex1"> The CSS width property specifies the width of the element's content area. </div>
+	<br>
+	<div class="ex2"> The content area is the portion inside the padding, border, and margin of an element</div>
+	<br>
+	<div class="ex3">So, if an element has a specified width, 
+	the padding added to that element will be added to the total width of the element. 
+	This is often an undesirable result.
+	box-sizing : border-box property add</div>
+</body>
+</html>

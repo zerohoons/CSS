@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>color :</title>
+<style type="text/css">
+.b_color{
+background-color: tomato;
+}
+.f_color{
+color: RGB(111,212,8);
+}
+.bo_color{
+border : 2px solid #f34;
+}
+</style>
+</head>
+<body>
+<!-- 
+	색상 사용 태그 및 속성 : background-color(배경색), color(글자색), border(테두리)
+						div, table 같은 영역
+	색상 표현법
+	1. names	 	 	  : tomato, orange ... >> 투명도는 opacity 속성을 이용해서 부여한다.
+	2. RGB(r,g,b)		  : 각 자리마다 0~255
+	3. RGBA(r,g,b,투명도)   : RGB랑 동일하나, 마지막에 투명도가 추가(0.0~1.0 사이)
+	4. HEX(#ffffff)		  : 두자리가 하나의 색을 표현(각 자리 별로 16진수 사용)
+	5. HEX(#ffffffAA)	  : 두자리가 하나의 색을 표현(각 자리 별로 16진수 사용). AA는 투명도
+ -->
+ 
+ <h2 class="b_color">배경색 지정하기</h2>
+ <p class="b_color"> 배경색 지정하기1 </p>
+ <span class="b_color"> 배경색 지정하기2 </span>
+ <div class="b_color"> 배경색 지정하기3 </div>
+ <hr>
+ <h2 class="f_color" >글자색 지정하기</h2>
+ <p class="f_color"> 글자색 지정하기1 </p>
+ <span class="f_color"> 글자색 지정하기2 </span>
+ <div class="f_color"> 글자색 지정하기3 </div>
+ <hr>
+ <h2 class="bo_color" >테두리색 지정하기</h2>
+ <p class="bo_color" > 테두리색 지정하기1 </p>
+ <span class="bo_color" > 테두리색 지정하기2 </span>
+ <div class="bo_color" > 테두리색 지정하기3 </div>
+ <hr>
+</body>
+</html>

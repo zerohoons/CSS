@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+img.top{
+	vertical-align:top; 
+}
+img.middle{
+	vertical-align: middle;
+}
+img.bottom{
+	vertical-align: bottom;
+}
+
+div#box1{
+border: 1px solid dark;
+width: 300px;
+height: 250px;
+display: table;
+}
+p#p1{
+display: table-cel;
+vertical-align: middle;
+text-align: center;
+}
+div#box2{
+border: 1px solid dark;
+width: 300px;
+height: 250px;
+}
+p#p2{
+line-height: 150px;
+text-align: center; 
+}
+</style>
+</head>
+<body>
+<!-- 그림과 글자 가로정렬 >> float: left/right -->
+<h2> 세로 정렬 : vertical-align </h2>
+<p> 기본 <img alt="" src="images/vert.gif"> 정렬이 있는 이미지. </p><br><br><br>
+<p> 상단 <img class ="top" alt="" src="images/vert.gif"> 정렬이 있는 이미지. </p><br><br><br>
+<p> 중단 <img class ="middle" alt="" src="images/vert.gif"> 정렬이 있는 이미지. </p><br><br><br>
+<p> 하단 <img class ="bottom" alt="" src="images/vert.gif"> 정렬이 있는 이미지. </p><br><br><br>
+<hr>
+<div id = "box1">
+<p id = "p1">
+div 안에 글자 세로 정렬
+</p>
+</div>
+<div id = "box2">
+<p id = "p2">
+div 안에 글자 세로 정렬
+</p>
+</div>
+</body>
+</html>
