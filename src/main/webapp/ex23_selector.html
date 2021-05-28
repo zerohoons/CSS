@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	p:first-child {
+	color:tomato;
+}
+	p:last-child {
+	color:blue;
+}
+	p:nth-child(even) {
+	background-color: lightgreen;
+}
+	p:nth-last-child(even) {
+	background-color: lightpink;
+}
+	p:nth-child(2n-1) {
+	font-size: 25px;
+}
+</style>
+</head>
+<body>
+<!-- 
+	:first-child		 : 형제관계 중 첫번째 위치에 있는 태그
+	:last-child	 		 : 형제관계 중 마지막 위치에 있는 태그
+	:nth-child(N)	 : 형제관계 중 앞에서 N번째 태그 선택
+	:nth-last-child(N)	 : 형제관계 중 뒤에서 N번째 태그 선택
+	*N에 수열 대신 even을 넣게되면 짝수, odd의 경우 홀수번째 태그가 선택되어진다. 
+ -->
+ 
+ <p>This is some text</p>
+ <p>This is some text</p>
+ <p>This is some text</p>
+ <p>This is some text</p>
+ <p>This is some text</p>
+ <p>This is some text</p>
+ <p>This is some text</p>
+ <p>This is some text</p>
+ <p>This is some text</p>
+ <p>This is some text</p>
+ <p>This is some text</p>
+ <p>This is some text</p>
+</body>
+</html>

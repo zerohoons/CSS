@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+.dropbtn{
+background-color: orange;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+min-width: 120px;
+}
+
+.dropdown{
+position : relative;
+display: inline-block;
+}
+
+.dropdown-content{
+display: none;
+position: absolute;
+background-color: yellow;
+}
+
+.drop_content > a{
+	text-decoration: none;
+	display: block;
+	padding: 12px 16px;
+	min-width: 120px;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+.dropdown-content > a:hover{
+	background-color: tomato;
+}
+
+</style>
+</head>
+<body>
+<h2>Dropdown Menu</h2>
+<p>Move the mouse over the button to open the dropdown menu.</p>
+
+<div class="dropdown">
+  <div class="dropbtn">Dropdown</div>
+  <div class="dropdown-content">
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  </div>
+</div>
+</body>
+</html>

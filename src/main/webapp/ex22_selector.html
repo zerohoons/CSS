@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+li+#d1{color:red}
+#d1~li{color:blue}
+</style>
+</head>
+<body>
+<!-- 
+ 형제관계, 같은 부모태그 안에 같은 위치인 경우
+ 선택자1 + 선택자2 : 선택자 1 바로 뒤에 위치한 선택자2를 선택 
+ 선택자1 ~ 선택자2 : 선택자 1뒤에 위치해 있는 선택자2 모두를 선택한다.
+ -->
+ 
+<ul>
+	<li id="d1"> 형제관계 선택자 연습 </li>
+	<li> 형제관계 선택자 연습 </li>
+	<li> 형제관계 선택자 연습 </li>
+	<li> 형제관계 선택자 연습 </li>
+	<hr>
+	<li> 형제관계 선택자 연습 </li>
+	<h2 id="d1"> 형제관계 선택자 연습 </h2>
+	<li> 형제관계 선택자 연습 </li>
+	<li> 형제관계 선택자 연습 </li>
+	<li> 형제관계 선택자 연습 </li>
+	<li> 형제관계 선택자 연습 </li>
+</ul>
+</body>
+</html>
